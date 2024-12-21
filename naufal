@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fieldset</title>
+    <link rel="icon" href="My-Icon.png">
+</head>
+<body>
+    <div style="color: white; background-color: gray; padding: 10px; text-align: center;">
+        <h1>LOGIN!</h1>
+    </div>
+    <blockquote></blockquote>
+    <fieldset>
+        <legend>Identitas</legend>
+        <label for="nama">Nama :</label>
+        <input type="text" name="nama" id="nama">
+        <blockquote></blockquote>
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email">
+        <blockquote></blockquote>
+        <label for="telepon">No. Telepon :</label>
+        <input type="tel" name="telepon" id="telepon" pattern="[0-9]{5,20}">
+    </fieldset>
+    <blockquote></blockquote>
+    <fieldset>
+        <legend>Alamat</legend>
+        <label for="jalan">Jalan :</label>
+        <input type="text" name="jalan" id="jalan">
+        <blockquote></blockquote>
+        <label for="kota">Kota :</label>
+        <input type="text" name="kota" id="kota">
+        <blockquote></blockquote>
+        <label for="prov">Provinsi :</label>
+        <input type="text" name="prov" id="prov">
+    </fieldset>
+    <blockquote></blockquote>
+    <button type="submit">Simpan!</button>
+    <blockquote></blockquote>
+
+    <div style="background-color: gray; color: white; padding: 10px; text-align: center;">
+        <i>Created by Naufal Hervanda</i>
+    </div>
+</body>
+</html>
